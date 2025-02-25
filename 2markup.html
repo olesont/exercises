@@ -1,19 +1,45 @@
-    <h1>h1 is a first-level heading</h1>
-    <h2>h2 is a second-level heading</h2>
-    <h3>h3 is for a third</h3>
-    <h4>h4 is for a fourth</h4>
-    <h5>h5 is for a fifth</h5>
-    <h6>h6 is the last one</h6>
-    <p>Tags have angle brackets, < and >, and "wrap" around the text to make elements. The frontslash character leans forward: /. Elements can have attributes;
-        <span style="color: rebeccapurple;">
-            this span has a style attribute
-        </span>
-        P tags are for paragraphs. Strong and em tags make text <strong>bold</strong> and <em>italic</em>, respectively. Likewise, you can use sup and sub tags to make text <sup>superscript</sup>, or <sub>subscript</sub>, or q tags for short <q>qutoes</q>.</p>
-        <blockquote>
-            you should use blockquote tags for long quotations, <br>
-            a br tage for a line break, and an hr tag for a horizontal rule. <br>
-            These are known as self-closing, because they don't have a closing tag.
-        </blockquote>
-        <hr>
-        <p><abbr title="For Your Information">F.Y.I></abbr> the abbr tag is for abbreviations, the cite tag is for <cite>Titles of Works</cite> by some authors, you can also show that text has been <del>deleted</del> or <ins>inserted</ins>, or you can just make a <s>strikethrough</s> using the s tag.</p>
-        <!--Lastly, HTML comments are hidden-->
+<section>
+    <h1>lists</h1>
+    <p>There are three kinds of lists: ordered, unordered, and definition. List items are wrapped in a list container.</p>
+    <h2> Ordered List</h2>
+        <ol>
+            <li>Item one</li>
+            <li>Second item</li>
+            <li>Another item</li>
+            <li>Last one</li>
+        </ol>
+    <h2>Unordered List</h2>
+        <ul>
+            <li>First same</li>
+            <li>Not again</li>
+            <li>
+                <ul>
+                    <li>Lists can be</li>
+                    <li>Nested to</li>
+                    <li>Arbitrary depth</li>
+                </ul>
+            </li>
+            <li>Henceforth</li>
+        </ul>
+        <h2>Definition List</h2>
+            <dl>
+                <dt>Definition Term</dt>
+                <dd>Definition details include more information.</dd>
+                <dd>Lists, by definition, include more than one item.</dd>
+                <dd>Definition lists are hardly ever used, so . . . </dd>
+            </dl>
+</section>
+
+<section>
+    <h1>Images</h1>
+    <p>Images use the img tag, which is self-closing, and they might be inside a figure tag. Images use the src= attribute to point to the source, which could be anywhere. Images display inline by default.</p>
+    <p>
+        <img src="https://picsum.photos/200" alt="random image">
+        &nbsp; See?
+    </p>
+    <h2>Figures</h2>
+    <figure>
+        <img src="https://picsum.photos/200/300" alt="another random">
+        <figcaption>Figures can have captions and display block.</figcaption>
+    </figure> &nbsp; See?
+</section>
